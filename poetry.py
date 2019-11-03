@@ -49,3 +49,4 @@ def my_costum_function():
 # print(lines_list)
 lines_printed_backwards(lines_list)
 lines_printed_random(lines_list)
+my_costum_function(lines_list)
