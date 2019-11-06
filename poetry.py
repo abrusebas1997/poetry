@@ -43,13 +43,11 @@ def lines_printed_random(lines_list):
 
 def my_costum_function(lines_list):
     """"Your code should implement a function of your choice that rearranges the poem in a unique way, be creative! Make sure that you carefully comment your custom function so it's clear what it does."""
+    # IT's going to delete the last line
     for lines in lines_list:
         lines_list.pop()
     print(lines_list)
 
-
-# lines_list = poem.split("\n")
-# print(lines_list)
 lines_printed_backwards(lines_list)
 lines_printed_random(lines_list)
 my_costum_function(lines_list)
