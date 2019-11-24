@@ -3,23 +3,23 @@ import random
 
 
 poem = """
-Because the time is ripe, the age is ready,
-Because the world her woman’s help demands,
-Out of the long subjection and seclusion
-Come to our field of warfare and confusion
-The mother's heart and hands.
+1.Because the time is ripe, the age is ready,
+2.Because the world her woman’s help demands,
+3.Out of the long subjection and seclusion
+4.Come to our field of warfare and confusion
+5.The mother's heart and hands.
 
-Long has she stood aside, endured and waited,
-While man swung forward, toiling on alone;
-Now, for the weary man, so long ill-mated,
-Now, for the world for which she was created,
-Comes woman to her own.
+6.Long has she stood aside, endured and waited,
+7.While man swung forward, toiling on alone;
+8.Now, for the weary man, so long ill-mated,
+9.Now, for the world for which she was created,
+10.Comes woman to her own.
 
-Not for herself! though sweet the air of freedom;
-Not for herself, though dear the new-born power;
-But for the child, who needs a nobler mother,
-For the whole people, needing one another,
-Comes woman to her hour.
+11.Not for herself! though sweet the air of freedom;
+12.Not for herself, though dear the new-born power;
+13.But for the child, who needs a nobler mother,
+14.For the whole people, needing one another,
+15.Comes woman to her hour.
 """
 lines_list = poem.split("\n")
 
