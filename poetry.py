@@ -3,34 +3,40 @@ import random
 
 
 poem = """
-1.Because the time is ripe, the age is ready,
-2.Because the world her woman’s help demands,
-3.Out of the long subjection and seclusion
-4.Come to our field of warfare and confusion
-5.The mother's heart and hands.
-
-6.Long has she stood aside, endured and waited,
-7.While man swung forward, toiling on alone;
-8.Now, for the weary man, so long ill-mated,
-9.Now, for the world for which she was created,
-10.Comes woman to her own.
-
-11.Not for herself! though sweet the air of freedom;
-12.Not for herself, though dear the new-born power;
-13.But for the child, who needs a nobler mother,
-14.For the whole people, needing one another,
-15.Comes woman to her hour.
+Because the time is ripe, the age is ready,
+Because the world her woman’s help demands,
+Out of the long subjection and seclusion
+Come to our field of warfare and confusion
+The mother's heart and hands.
+Long has she stood aside, endured and waited,
+While man swung forward, toiling on alone;
+Now, for the weary man, so long ill-mated,
+Now, for the world for which she was created,
+Comes woman to her own.
+Not for herself! though sweet the air of freedom;
+Not for herself, though dear the new-born power;
+But for the child, who needs a nobler mother,
+For the whole people, needing one another,
+Comes woman to her hour.
 """
+
+
+
 lines_list = poem.split("\n")
 
 def lines_printed_backwards(lines_list):
 
     """Your code should implement the lines_printed_backwards() function. This function takes in a list of strings containing the lines of your poem as arguments and will print the poem lines out in reverse with the line numbers reversed."""
+    lines_list.reverse()
 
     # TODO: Reverse the loop
+    new_list = []
+    count = 0
     for lines in lines_list:
-        lines_list.reverse()
-    print(lines_list)
+        count += 1
+        new_list.append(str(count) + ". " + lines)
+    # print(count)
+    print(new_list)
     # TODO: use loop to print out items in list
 
 
@@ -49,5 +55,6 @@ def my_costum_function(lines_list):
     print(lines_list)
 
 lines_printed_backwards(lines_list)
+print("\n\n")
 lines_printed_random(lines_list)
 my_costum_function(lines_list)
